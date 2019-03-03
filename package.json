@@ -38,7 +38,7 @@
     "eslint": "4.19.0",
     "eslint-plugin-react": "7.7.0",
     "fs-extra": "7.0.1",
-    "globby": "9.0.0",
+    "globby": "9.1.0",
     "lodash": "4.17.11",
     "posix-getopt": "^1.2.0",
     "typhonjs-escomplex": "0.0.12"
