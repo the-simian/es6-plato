@@ -35,7 +35,7 @@
     "analyze"
   ],
   "dependencies": {
-    "eslint": "6.2.2",
+    "eslint": "6.7.0",
     "eslint-plugin-react": "7.14.3",
     "fs-extra": "8.1.0",
     "globby": "10.0.1",
