@@ -36,7 +36,7 @@
   ],
   "dependencies": {
     "eslint": "6.2.2",
-    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react": "7.19.0",
     "fs-extra": "8.1.0",
     "globby": "10.0.1",
     "lodash": "4.17.15",
