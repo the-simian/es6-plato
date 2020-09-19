@@ -1,6 +1,6 @@
 {
   "rules": {
-    "indent": [2,"tab"],
+    "indent": [2,"spaces"],
     "quotes": [2,"single"],
     "semi": [2,"always"],
     "no-console" : [1],
