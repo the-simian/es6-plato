@@ -1,6 +1,6 @@
 'use strict';
 
-var fs = require('fs');
+var fs = require('fs-extra');
 
 var util = require('../lib/util');
 
@@ -85,10 +85,10 @@ exports['util'] = {
 
     test.done();
   },
-  'strip comments': function(test) {
+  'strip comments': async function(test) {
     test.expect(1);
 
-    var source = fs.readFileSync('test/fixtures/.jshintrc').toString();
+    var source = await fs.readFile('test/fixtures/.jshintrc').toString();
     test.doesNotThrow(function(){JSON.parse(util.stripComments(source));}, "Comments should be stripped and JSON parsable");
 
     test.done();

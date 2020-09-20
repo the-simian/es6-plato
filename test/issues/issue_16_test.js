@@ -22,10 +22,10 @@ exports['issue_16'] = {
     done();
   },
 
-  'Respect global comment': function(test) {
+  'Respect global comment': async function(test) {
 
     var file = "test/fixtures/issue_16.js",
-        source = fs.readFileSync(file).toString().trim(),
+        source = await fs.readFile(file).toString().trim(),
         config = {},
         globals = [],
         report = linter.process(source, config, globals);
