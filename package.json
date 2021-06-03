@@ -37,7 +37,7 @@
   "dependencies": {
     "eslint": "6.2.2",
     "eslint-plugin-react": "7.14.3",
-    "fs-extra": "8.1.0",
+    "fs-extra": "9.0.0",
     "globby": "10.0.1",
     "lodash": "^4.17.19",
     "posix-getopt": "^1.2.0",
