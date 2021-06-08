@@ -17,7 +17,7 @@
   },
   "bin": "bin/plato",
   "license": "MIT",
-  "main": "lib/plato",
+  "main": "lib/plato.js",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -35,13 +35,14 @@
     "analyze"
   ],
   "dependencies": {
-    "eslint": "6.2.2",
-    "eslint-plugin-react": "7.14.3",
-    "fs-extra": "8.1.0",
-    "globby": "10.0.1",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.3",
+    "fs-extra": "^9.0.1",
+    "globby": "^11.0.1",
     "lodash": "^4.17.19",
+    "mkdirp": "^1.0.4",
     "posix-getopt": "^1.2.0",
-    "typhonjs-escomplex": "0.0.12",
+    "typhonjs-escomplex": "^0.1.0",
     "unixify": "^1.0.0"
   }
 }
